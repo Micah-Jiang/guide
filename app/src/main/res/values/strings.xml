@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">一加指南针</string>
+    <string name="transfer_name">切换主题</string>
+    <string name="about_title">关于应用</string>
+    <string name="to_about">关于应用</string>
+    <string name="app_copy">Copyright © 2018 - 2021 Micah 艺术创新工作室</string>
+    <string name="copy_info">All rights reserved</string>
+    <string name="about_app_info">一加指南针 ｜ V 1.0.0</string>
+    <string name="location_name_east">东经：</string>
+    <string name="location_name_north">北纬：</string>
+</resources>

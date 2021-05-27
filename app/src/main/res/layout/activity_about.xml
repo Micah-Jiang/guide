@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/app_toolbar"
+            android:background="@color/colorAccent"
+            android:elevation="1sp"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize">
+        <TextView
+                android:id="@+id/about_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/about_title"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+            android:id="@+id/app_info"
+            android:layout_below="@+id/app_toolbar"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView
+                android:id="@+id/app_logo"
+                android:elevation="2sp"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerHorizontal="true"
+                android:layout_width="70dp" android:layout_height="70dp"></ImageView>
+        <TextView
+                android:layout_below="@+id/app_logo"
+                android:layout_marginTop="12dp"
+                android:text="@string/about_app_info"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent" android:layout_height="wrap_content"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/layout_copy_right"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/app_copy"
+                android:text="@string/app_copy"
+                android:gravity="center"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:layout_below="@+id/app_copy"
+            android:gravity="center"
+            android:text="@string/copy_info"
+            android:layout_marginTop="5dp"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+        </TextView>
+    </RelativeLayout>
+</RelativeLayout>
